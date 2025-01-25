@@ -70,6 +70,7 @@ const fileType = {
 
 const subSectionsIcons: { [key: string]: JSX.Element } = {
   'about-me': <AboutMe />,
+  'education': <WorkExperience />,
   'work-experience': <WorkExperience />,
   skills: <Technologies />,
   'my-work': <Projects />,

@@ -1,17 +1,19 @@
 import { AboutMe, AnimatedTitle, Border, ContactForm, Container, FadeIn, GridPattern, MyWork, Section, SectionHeader, Skills, Socials, Stars, WorkExperience } from '@/components';
+import Education from '@/components/Education';
 import { Archive, BookOpen, BriefCase, Envelope } from '@/icons';
 
 export const metadata = {
-  title: 'Alejandro Gomez',
+  title: 'Sahil Gangwani',
   description: 'My personal portfolio.',
 };
 
 export const sections = [
   { index: 0, title: 'About Me', id: 'about-me' },
-  { index: 1, title: 'Work Experience', id: 'work-experience' },
-  { index: 2, title: 'Skills', id: 'skills' },
-  { index: 3, title: 'My Work', id: 'my-work' },
-  { index: 4, title: 'Contact Me', id: 'contact' },
+  { index: 1, title: 'Education', id: 'education' },
+  { index: 2, title: 'Work Experience', id: 'work-experience' },
+  { index: 3, title: 'Skills', id: 'skills' },
+  { index: 4, title: 'My Work', id: 'my-work' },
+  { index: 5, title: 'Contact Me', id: 'contact' },
 ];
 
 interface contentSection {
@@ -25,8 +27,26 @@ interface contentSection {
 }
 
 const content: contentSection[] = [
-  {
+    {
     id: sections[1].id,
+    sectionHeader: {
+      icon: (
+        <>
+          <BriefCase height="28" width="28" />
+          <span className="bg-work_experience_orange icon-blur absolute inset-0 -z-10"></span>
+        </>
+      ),
+      title: 'Education',
+      description: (
+        <div>
+          <span className="text-work_experience_orange">Semi-Senior Engineer</span> with <span className="text-work_experience_orange">4 years</span> of experience in the software industry
+        </div>
+      ),
+    },
+    mainContent: <Education />,
+  },
+  {
+    id: sections[2].id,
     sectionHeader: {
       icon: (
         <>
@@ -44,7 +64,7 @@ const content: contentSection[] = [
     mainContent: <WorkExperience />,
   },
   {
-    id: sections[2].id,
+    id: sections[3].id,
     sectionHeader: {
       icon: (
         <>
@@ -63,7 +83,7 @@ const content: contentSection[] = [
     mainContent: <Skills />,
   },
   {
-    id: sections[3].id,
+    id: sections[4].id,
     sectionHeader: {
       icon: (
         <>
@@ -81,7 +101,7 @@ const content: contentSection[] = [
     mainContent: <MyWork />,
   },
   {
-    id: sections[4].id,
+    id: sections[5].id,
     sectionHeader: {
       icon: (
         <>
@@ -109,7 +129,7 @@ export default function Index() {
           <div className="min-h-screen relative">
             <FadeIn className="max-w-5xl pt-40 md:pt-[20vh] 2xl:pt-[30vh]">
               <h1 className="font-display text-5xl font-medium tracking-tight [text-wrap:balance] sm:text-6xl">
-                Alejandro Gomez<span className="wave">👋</span>
+                Sahil Gangwani<span className="wave">👋</span>
               </h1>
               <div className="flex mt-3 mb-1">
                 Looking for a job{' '}

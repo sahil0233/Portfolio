@@ -11,8 +11,8 @@ import { Toaster } from 'react-hot-toast';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Alejandro Gomez Portfolio',
-  description: 'Alejandro Gomez Porfolio',
+  title: 'Sahil Gangwani Portfolio',
+  description: 'Sahil Gangwani Porfolio',
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
