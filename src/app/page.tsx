@@ -33,13 +33,13 @@ const content: contentSection[] = [
       icon: (
         <>
           <BriefCase height="28" width="28" />
-          <span className="bg-work_experience_orange icon-blur absolute inset-0 -z-10"></span>
+          <span className="bg-education-pink icon-blur absolute inset-0 -z-10"></span>
         </>
       ),
       title: 'Education',
       description: (
         <div>
-          <span className="text-work_experience_orange">Semi-Senior Engineer</span> with <span className="text-work_experience_orange">4 years</span> of experience in the software industry
+          <span className="text-education_pink">Academic background</span>  and qualifications
         </div>
       ),
     },
@@ -57,7 +57,7 @@ const content: contentSection[] = [
       title: 'Work Experience',
       description: (
         <div>
-          <span className="text-work_experience_orange">Semi-Senior Engineer</span> with <span className="text-work_experience_orange">4 years</span> of experience in the software industry
+          <span className="text-work_experience_orange">Software Engineer</span> with experience in <span className="text-work_experience_orange"> backend, frontend, and DevOps </span> technologies.
         </div>
       ),
     },
@@ -75,8 +75,8 @@ const content: contentSection[] = [
       title: 'Skills',
       description: (
         <div>
-          <span className="text-skills_purple">Full Stack</span> software developer with experience in <span className="text-skills_purple">Front-End</span> and{' '}
-          <span className="text-skills_purple">Back-End</span> technologies
+          <span className="text-skills_purple">Proficient </span> in diverse  <span className="text-skills_purple"></span>
+          <span className="text-skills_purple">programming languages,</span>  tools, and frameworks
         </div>
       ),
     },
@@ -129,17 +129,17 @@ export default function Index() {
           <div className="min-h-screen relative">
             <FadeIn className="max-w-5xl pt-40 md:pt-[20vh] 2xl:pt-[30vh]">
               <h1 className="font-display text-5xl font-medium tracking-tight [text-wrap:balance] sm:text-6xl">
-                Sahil Gangwani<span className="wave">👋</span>
+                Sahil Gangwani
               </h1>
               <div className="flex mt-3 mb-1">
-                Looking for a job{' '}
-                <span className="relative flex h-2 w-2 self-center mx-1">
+                Seeking Employment{' '}
+                <span className="relative flex h-2 w-2 self-center mx-2">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
                 </span>{' '}
                 / &#8205; <AnimatedTitle />
               </div>
-              <p className="max-w-3xl">26 yo software engineer with a B.S. in Computer Science and Technology with experience in Front-End and Back-End technologies.</p>
+              <p className="max-w-3xl">23 yo software engineer with a B.Tech in Computer Science and Technology with experience in Front-End, Back-End and DevOps technologies.</p>
             </FadeIn>
 
             <Socials />

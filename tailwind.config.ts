@@ -9,6 +9,7 @@ const config: Config = {
         dark_border: '#1B1E2E',
         about_me_green: '#7ee787',
         work_experience_orange: '#ffa28b',
+        education_pink: "#d16ef5",
         skills_purple: '#939aff',
         my_work_yellow: '#ffdc8b',
         white: '#FFF',
