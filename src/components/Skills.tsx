@@ -26,14 +26,8 @@ const skillsLogos = {
       name: 'Python',
       image: '/logos/python-logo.png',
     },
-    {
-      name: 'C#',
-      image: '/logos/csharp-logo.png',
-    },
-    {
-      name: 'Swift',
-      image: '/logos/swift-logo.png',
-    },
+    { name: '', image: '' },
+    { name: '', image: '' },
     { name: '', image: '' },
     { name: '', image: '' },
     { name: '', image: '' },
@@ -63,24 +57,12 @@ const skillsLogos = {
       image: '/logos/nextjs-logo.png',
     },
     {
-      name: 'Native',
-      image: '/logos/rnative-logo.png',
+      name: '',
+      image: '',
     },
     {
       name: 'TailwindCSS',
       image: '/logos/tailwindcss-logo.jpg',
-    },
-    {
-      name: 'Sass',
-      image: '/logos/sass-logo.png',
-    },
-    {
-      name: 'JQuery',
-      image: '/logos/jquery-logo.webp',
-    },
-    {
-      name: 'Svelte',
-      image: '/logos/svelte-logo.png',
     },
     {
       name: 'Bootstrap',
@@ -91,8 +73,20 @@ const skillsLogos = {
       image: '/logos/materialui-logo.png',
     },
     {
-      name: 'LeafletJS',
-      image: '/logos/leaflet-logo.jpg',
+      name: '',
+      image: '',
+    },
+    {
+      name: '',
+      image: '',
+    },
+    {
+      name: '',
+      image: '',
+    },
+    {
+      name: '',
+      image: '',
     },
     { name: '', image: '' },
     { name: '', image: '' },
@@ -108,10 +102,6 @@ const skillsLogos = {
       image: '/logos/express-logo.png',
     },
     {
-      name: 'NestJS',
-      image: '/logos/nestjs-logo.png',
-    },
-    {
       name: 'MongoDB',
       image: '/logos/mongodb-logo.webp',
     },
@@ -124,40 +114,44 @@ const skillsLogos = {
       image: '/logos/firebase-logo.jpg',
     },
     {
-      name: 'Heroku',
-      image: '/logos/heroku-logo.webp',
-    },
-    {
-      name: 'DigitalOcean',
-      image: '/logos/digital-ocean-logo.svg',
-    },
-    {
-      name: 'Stripe',
-      image: '/logos/stripe-logo.png',
-    },
-    {
-      name: 'Paypal',
-      image: '/logos/paypal-logo.png',
-    },
-    {
-      name: 'MercadoPago',
-      image: '/logos/mercadopago-logo.webp',
-    },
-    {
       name: 'awsS3',
       image: '/logos/s3-logo.png',
     },
     {
-      name: 'StrapiCMS',
-      image: '/logos/strapi-cms-logo.png',
+      name: '',
+      image: '',
     },
     {
-      name: 'SanityCMS',
-      image: '/logos/sanity-cms-logo.png',
+      name: '',
+      image: '',
     },
     {
-      name: 'DatoCMS',
-      image: '/logos/dato-cms-logo.png',
+      name: '',
+      image: '',
+    },
+    {
+      name: '',
+      image: '',
+    },
+    {
+      name: '',
+      image: '',
+    },
+    {
+      name: '',
+      image: '',
+    },
+    {
+      name: '',
+      image: '',
+    },
+    {
+      name: '',
+      image: '',
+    },
+    {
+      name: '',
+      image: '',
     },
   ],
   ['Tools' as string]: [
@@ -171,28 +165,28 @@ const skillsLogos = {
     },
     { name: 'Docker', image: '/logos/docker-logo.png' },
     {
-      name: 'EsLint',
-      image: '/logos/eslint-logo.png',
-    },
-    {
       name: 'Redux',
       image: '/logos/redux-logo.png',
     },
     {
-      name: 'Figma',
-      image: '/logos/figma-logo.webp',
+      name: '',
+      image: '',
     },
     {
-      name: 'SocketIO',
-      image: '/logos/socketio-logo.webp',
+      name: '',
+      image: '',
     },
     {
-      name: 'Mailchimp',
-      image: '/logos/mailchimp-logo.webp',
+      name: '',
+      image: '',
     },
     {
-      name: 'Postmark',
-      image: '/logos/postmark-logo.png',
+      name: '',
+      image: '',
+    },
+    {
+      name: '',
+      image: '',
     },
     { name: '', image: '' },
     { name: '', image: '' },

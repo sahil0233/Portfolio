@@ -5,5 +5,7 @@ import loteriaMonarca from './loteria-monarca.png';
 import realtorSimplified from './realtor-simplified.png';
 import sierraEcomaderas from './sierra-ecomaderas.png';
 import template1 from './realtor-template-1.png';
+import crowdfunding from './crowdfunding.png';
+import inventory from './inventory.png';
 
-export { impulseux, leenithBorges, leenithIos, loteriaMonarca, realtorSimplified, sierraEcomaderas, template1 };
+export { impulseux, leenithBorges, leenithIos, loteriaMonarca, realtorSimplified, sierraEcomaderas, template1, inventory, crowdfunding };

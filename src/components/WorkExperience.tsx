@@ -4,44 +4,14 @@ import { default as Image } from 'next/image';
 
 const experience = [
   {
-    title: 'WestonDev | Full Stack Developer.',
-    date: 'Dic 2023 - Present',
+    title: 'Everlign | Full Stack Developer.',
+    date: 'July 2024 - Present',
     description: [
-      'Developed front-end user interface using React, React Native and JavaScript for Web Apps, iOS and Android mobile applications.',
-      'Developed and maintained React Native components, screens, and features for the mobile app using TDD practices.',
-      'Collaborated with other developers to implement new features in a way that is consistent with existing codebase conventions.',
+      'Kubernetes: Deployed and managed a self-sustained Kubernetes cluster, achieving 0 downtime and faster deployments.',
+      'CI/CD Optimization: Reduced deployment time from 20 minutes to 5 by optimizing GitHub workflows with layer caching and Dockerfile best practices.',
+      'Chatbot Optimization: Reduced chatbot response time from 30 seconds to 3 by implementing VLLM and optimizing frontend and backend for streaming.',
     ],
-    image: { url: '/work/westondev.jpg', height: 96, width: 96, className: 'rounded-none' },
-  },
-  {
-    title: 'Zenith Systems | Software Engineer.',
-    date: 'Oct 2022 - Dic 2023',
-    description: [
-      'Built an e-commerce site to sell courses online, by using React, Firebase Sass, Bootstrap, and Hotmart.',
-      'Developed swift IOS app from scratch and modified existing ones, by adding new screens, transitions and styling.',
-      'Developed software by following the Agile Methodology.',
-    ],
-    image: { url: '/work/zenith.png', height: 34, width: 110, className: '' },
-  },
-  {
-    title: 'BOHRIM BIM LEAN QUALITY | Full Stack Developer.',
-    date: 'Aug 2021 - Aug 2022',
-    description: [
-      'Worked on their B2B saas platform by communicating with users and making the appropriate changes to the platform, following the scrum methodology.',
-      'Added functionality by creating Strapi headless CMS endpoints.',
-      'Made changes to their application using React, Typescript, MaterialUI, CSS, AWS S3, PostgreSQL.',
-    ],
-    image: { url: '/work/bohrim.jpg', height: 96, width: 96, className: '' },
-  },
-  {
-    title: 'Loteria Monarca | Co-Founder.',
-    date: 'Jan 2020 - March 2021',
-    description: [
-      'Tasked with creating a web app to play ‘Loteria Mexicana’ online with the technology of my choosing.',
-      'Designed and built an initial demo with HTML, EJS, CSS, VanillaJS & JQuery, Bootstrap, ExpressJS, MongoDB, and Heroku.',
-      'After 2/3 months of success and after reaching 15k unique users, 100s of concurrent users on game night, and 12k USD NRR, I made the decision to transition the front end app over to SvelteJs and TailwindCSS for a better user experience and speed, and implemented Stripe and Paypal payment processing.',
-    ],
-    image: { url: '/work/loteria.png', height: 96, width: 144, className: 'bg-white' },
+    image: { url: '/work/everlign.jpg', height: 96, width: 96, className: '' },
   },
 ];
 
