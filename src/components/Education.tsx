@@ -32,7 +32,7 @@ return (
         hidden: { opacity: 0, x: 20 },
         visible: { opacity: 1, x: 0 },
         }}
-        className="self-start w-3/4"
+        className="self-start w-full lg:w-3/4"
     >
         <GlowCard className="hover:shadow-education_blue/90" glowClassName="from-[#495df5] to-[#495df5]">
         <div className="flex flex-col gap-8 @lg:flex-row justify-between">

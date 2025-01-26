@@ -30,7 +30,7 @@ const projects: Project[] = [
     href: '/apps/loteria-monarca',
     name: 'Crowdfunding Decentralized App',
     full: true,
-    description: ' developed a responsive website using React and implemented smart contracts in Solidity for backend functionality. I connected the smart contract database to the frontend using the Thirdweb library. Then deployed the project on google cloud. This setup enables users to create campaigns and donate Ethereum to other campaigns seamlessly.',
+    description: 'Developed a responsive website using React and implemented smart contracts in Solidity for backend functionality. I connected the smart contract database to the frontend using the Thirdweb library. Then deployed the project on google cloud. This setup enables users to create campaigns and donate Ethereum to other campaigns seamlessly.',
     image: { src: crowdfunding },
     github: 'https://coinraise-ten.vercel.app/',
     live_link: 'https://github.com/sahil0233/Coinraise'
@@ -44,14 +44,14 @@ export default function MyWork() {
         {projects.map((project) => (
           <GlowCard
             key={project.name}
-            className={clsx('hover:shadow-my_work_yellow/90 flex gap-2', project.full ? 'h-[60vh] @2xl:h-[50vh] @3xl:col-span-2' : 'h-[60vh] @3xl:col-span-1')}
+            className={clsx('hover:shadow-my_work_yellow/90 flex justify-center items-center flex-col-reverse @xl:flex-row gap-2', project.full ? '@sm:h-[40vh] @2xl:h-[50vh] @3xl:col-span-2' : 'h-[60vh] @3xl:col-span-1')}
             glowClassName="from-[#ffdc8b] to-[#ffdc8b]"
           > 
             <div>
-              <h3 className='text-xl @2xl:text-3xl text-my_work_yellow mb-4'>
+              <h3 className='text-lg @2xl:text-xl @3xl:text-3xl text-my_work_yellow mb-4'>
                 {project.name}
               </h3>
-              <p className='text-white'>
+              <p className='text-white text-sm @md:text:xs @2xl:text-md'>
               {project.description}
               </p>
               <ul className=' pr-4 flex gap-4 pt-2 text-white text-xs'>
@@ -63,8 +63,8 @@ export default function MyWork() {
             <Image
               placeholder="blur"
               className={clsx(
-                'my-projects-img-shadow w-full',
-                project.full ? '@md:w-[80%] @xl:w-[70%] @2xl:w-[55%] @md:rounded-tl-md bottom-0 right-0' : 'bottom-0 @xl:right-0 @xl:w-[70%] @3xl:w-full'
+                'my-projects-img-shadow',
+                project.full ? 'hidden md:flex @md:w-[80%] @xl:w-[50%] @2xl:w-[55%] @md:rounded-tl-md bottom-0 right-0' : 'bottom-0 @xl:right-0 @xl:w-[70%] @3xl:w-full'
               )}
               src={project.image.src}
               alt=""
