@@ -44,7 +44,7 @@ export default function MyWork() {
         {projects.map((project) => (
           <GlowCard
             key={project.name}
-            className={clsx('hover:shadow-my_work_yellow/90 flex justify-center items-center flex-col-reverse @xl:flex-row gap-2', project.full ? '@sm:h-[40vh] @2xl:h-[50vh] @3xl:col-span-2' : 'h-[60vh] @3xl:col-span-1')}
+            className={clsx('hover:shadow-my_work_yellow/90 flex justify-center items-center flex-col @xl:flex-row gap-2', project.full ? ' @2xl:h-[50vh] @3xl:col-span-2' : 'h-[60vh] @3xl:col-span-1')}
             glowClassName="from-[#ffdc8b] to-[#ffdc8b]"
           > 
             <div>
@@ -64,7 +64,7 @@ export default function MyWork() {
               placeholder="blur"
               className={clsx(
                 'my-projects-img-shadow',
-                project.full ? 'hidden md:flex @md:w-[80%] @xl:w-[50%] @2xl:w-[55%] @md:rounded-tl-md bottom-0 right-0' : 'bottom-0 @xl:right-0 @xl:w-[70%] @3xl:w-full'
+                project.full ? ' @md:w-[80%] @xl:w-[50%] @2xl:w-[55%] @md:rounded-tl-md bottom-0 right-0' : 'bottom-0 @xl:right-0 @xl:w-[70%] @3xl:w-full'
               )}
               src={project.image.src}
               alt=""
