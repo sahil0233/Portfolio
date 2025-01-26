@@ -32,8 +32,8 @@ const projects: Project[] = [
     full: true,
     description: 'Developed a responsive website using React and implemented smart contracts in Solidity for backend functionality. I connected the smart contract database to the frontend using the Thirdweb library. Then deployed the project on google cloud. This setup enables users to create campaigns and donate Ethereum to other campaigns seamlessly.',
     image: { src: crowdfunding },
-    github: 'https://coinraise-ten.vercel.app/',
-    live_link: 'https://github.com/sahil0233/Coinraise'
+    github: 'https://github.com/sahil0233/Coinraise',
+    live_link: 'https://coinraise-ten.vercel.app/'
   },
 ];
 
