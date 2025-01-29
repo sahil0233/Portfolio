@@ -132,7 +132,7 @@ export default function Index() {
                 Sahil Gangwani
               </h1>
               <div className="flex mt-3 mb-1">
-                Currently working at Everlign{' '}
+                Seeking Employment{' '}
                 <span className="relative flex h-2 w-2 self-center mx-2">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
